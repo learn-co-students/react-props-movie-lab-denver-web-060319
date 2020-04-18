@@ -29,15 +29,6 @@ const posterMap = {
 
 export default class MovieCard extends Component {
   
-  // findPoster = () => {
-  //   return (
-  //     Object.keys(posterMap).includes(this.props.poster) ? 
-  //     posterMap[this.props.poster] 
-  //     : 
-  //     posterMap['default']
-  //   )
-  // }
-  
   render() {
     return (
       <div className="movie-card">
